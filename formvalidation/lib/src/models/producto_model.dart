@@ -26,9 +26,9 @@ class ProductoModel {
         disponible  : json["disponible"],
         photoUrl    : json["photoUrl"],
     );  
-  
+
     Map<String, dynamic> toJson() => {
-        "id"        : id,
+        // "id"        : id,
         "titulo"    : titulo,
         "valor"     : valor,
         "disponible": disponible,
